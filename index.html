@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jöro Kaffé, coffee shop de spécialité à Paris 9e (Pigalle)</title>
+<meta name="description" content="Jöro Kaffé, coffee shop de spécialité à Paris 9e : cafés, lattes, sandwichs et douceurs, avec de quoi travailler sur place. Ouvert du lundi au samedi.">
+<meta name="theme-color" content="#825645">
+<script>document.documentElement.classList.add('js')</script>
+<!-- URL du site : https://joro-kaffe.com/ (hypothèse de travail, à confirmer ; à changer aux 6 endroits canonical / og:url / og:image / twitter:image / JSON-LD) -->
+<link rel="canonical" href="https://joro-kaffe.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Jöro Kaffé">
+<meta property="og:title" content="Jöro Kaffé, coffee shop de spécialité à Paris 9e">
+<meta property="og:description" content="Cafés de spécialité, lattes, sandwichs et douceurs. Un coffee shop de quartier où l’on peut aussi poser son ordinateur.">
+<meta property="og:url" content="https://joro-kaffe.com/">
+<meta property="og:image" content="https://joro-kaffe.com/og-jorokaffe.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Le comptoir carrelé de rouge de Jöro Kaffé, avec ses tabourets et sa machine à café">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jöro Kaffé, coffee shop de spécialité à Paris 9e">
+<meta name="twitter:description" content="Cafés de spécialité, lattes, sandwichs et douceurs. Un coffee shop de quartier où l’on peut aussi poser son ordinateur.">
+<meta name="twitter:image" content="https://joro-kaffe.com/og-jorokaffe.jpg">
+
+<!-- Données structurées (CafeOrCoffeeShop). Volontairement sans aggregateRating : Google n’affiche pas les étoiles pour les avis d’une entreprise publiés sur son propre site (règle « self-serving reviews », 2019). -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Jöro Kaffé",
+  "description": "Coffee shop de spécialité à Paris 9e : cafés, lattes, sandwichs et douceurs, avec de quoi travailler sur place.",
+  "url": "https://joro-kaffe.com/",
+  "telephone": "+33764013848",
+  "email": "hello@joro-kaffe.com",
+  "image": "https://joro-kaffe.com/og-jorokaffe.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "15 bis rue Jean-Baptiste Pigalle",
+    "postalCode": "75009",
+    "addressLocality": "Paris",
+    "addressCountry": "FR"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:30", "closes": "18:00" }
+  ],
+  "servesCuisine": ["Café de spécialité", "Sandwichs", "Pâtisseries"],
+  "hasMenu": "https://joro-kaffe.com/#carte",
+  "acceptsReservations": false,
+  "sameAs": ["https://www.instagram.com/joro_kaffe/"]
+}
+</script>
+
+<link rel="stylesheet" href="assets/css/style.css">
+<noscript><style>.ckw{display:none}.status{display:none}</style></noscript>
+</head>
+<body>
+<!--
+  ============ À CONFIRMER / À REMPLACER AVANT MISE EN LIGNE (repères jaunes ou pointillés dans la page) ============
+  Reste à faire : hébergeur (mentions légales) ; validation juridique des textes légaux (juridique + Maelle) ;
+  version complète de Market Deco (accents) ; confirmer l’adresse joro-kaffe.com.
+    ===============================================================================================================
+-->
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="star" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.9.8-5.1 4.7 1.4 6.8L12 17.7 5.9 21.1l1.4-6.8L2.2 9.6l6.9-.8z"/></symbol>
+</svg>
+
+<div class="top">
+  <header class="hd">
+    <a class="logo" href="#top" aria-label="Jöro Kaffé, accueil"><img src="assets/img/logo-joro-kaffe.png" alt="Jöro Kaffé" width="91" height="52"></a>
+    <div class="hd-right">
+      <span class="status js-status" hidden><i class="dot"></i><span class="st-txt"></span></span>
+      <nav class="nv" aria-label="Navigation principale">
+        <a href="#lieu" class="opt"><span>Le lieu</span></a>
+        <a href="#travailler"><span>Travailler<span class="xs-hide"> ici</span></span></a>
+        <a href="#carte"><span><span class="xs-hide">La </span>carte</span></a>
+        <a href="#infos" class="nv-cta"><span><span class="xs-hide">Nous trouver</span><span class="xs-only">Infos</span></span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+  <section id="top" class="hero" aria-label="Présentation">
+    <img src="assets/img/hero-comptoir.webp" alt="Le comptoir carrelé de rouge de Jöro Kaffé, avec ses tabourets et sa machine à café" width="1920" height="1279" fetchpriority="high">
+    <div class="shade" aria-hidden="true"></div>
+    <div class="in">
+      <p class="kick"><span class="nw">Coffee shop · Paris 9e</span><span class="status js-status" hidden><i class="dot"></i><span class="st-txt"></span></span></p>
+      <h1>Un café pour prendre son temps</h1>
+      <div class="btns">
+        <a class="btn btn-cream" href="#carte">Découvrir la carte</a>
+        <a class="btn btn-line-cream" href="#infos">Horaires &amp; accès</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="ckw" aria-hidden="true">
+    <div class="ckg ckd"><b style="--r:0"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:1"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:2"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:3"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:4"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:5"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:6"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:7"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:8"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></b></div>
+    <div class="ckg ckm"><b style="--r:0"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:1"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:2"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:3"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:4"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:5"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:6"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:7"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:8"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:9"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:10"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:11"><i></i><i></i><i></i><i></i><i></i><i></i></b><b style="--r:12"><i></i><i></i><i></i><i></i><i></i><i></i></b></div>
+    <div class="ckt"><img src="assets/img/logo-joro-kaffe.png" alt="" width="162" height="92"></div>
+  </div>
+</div>
+
+<div class="checker" aria-hidden="true"></div>
+
+<!-- LE LIEU -->
+<section id="lieu" class="sec">
+  <div class="wrap lieu">
+    <div class="ph"><img src="assets/img/lieu-gobelets-damier.webp" alt="Une pile de gobelets à damier Jöro Kaffé surmontée d’un latte art" width="960" height="1199" loading="lazy"></div>
+    <div class="tx">
+      <p class="eyebrow">Le lieu</p>
+      <h2 class="h2">Une adresse de quartier, volontairement chaleureuse</h2>
+      <p>Jöro Kaffé est pensé comme une adresse de quartier où l’on peut aussi bien chercher son café du matin que poser son ordinateur pour quelques heures.</p>
+      <p>Installé au 15 bis rue Jean-Baptiste Pigalle, dans le 9e arrondissement, le lieu mêle café de spécialité, design et travail nomade. Au comptoir, les cafés sont sélectionnés en collaboration avec <a href="https://dose.paris/" rel="noopener" target="_blank">Dose Family</a>.</p>
+      <p class="lead-serif">Un coffee shop, donc, mais avec cette petite différence : on peut s’y installer.</p>
+      <div class="btns">
+        <a class="btn" href="#travailler">Travailler ici</a>
+        <a class="btn" href="#carte">Découvrir la carte</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRAVAILLER SUR PLACE -->
+<section id="travailler" class="sec work">
+  <div class="wrap work-grid">
+    <div>
+      <p class="eyebrow">Travailler sur place</p>
+      <h2 class="h2">Un endroit où l’on peut vraiment travailler</h2>
+      <p class="lead-serif">De quoi poser son ordinateur pour la matinée, l’après-midi, ou les deux.</p>
+      <ul class="perks">
+        <li>
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M5 15c8.5-8 21.500-8 30 0M10 21c5.500-5 14.500-5 20 0M15 27c3-2.700 7-2.700 10 0"/><circle cx="20" cy="32" r="1.500"/></svg>
+          <div><h3>Wi‑Fi</h3><p>Une connexion à disposition de nos clients.</p></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M14 6v8M26 6v8M10 14h20v6a10 10 0 0 1-20 0v-6zM20 30v5"/></svg>
+          <div><h3>Prises</h3><p>Des prises pour garder la batterie pleine.</p></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="9" y="8" width="22" height="15" rx="1.500"/><path d="M4 28h32M12 28v7M28 28v7"/></svg>
+          <div><h3>Tables adaptées</h3><p>Des tables pensées pour un ordinateur et ses affaires.</p></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="10" y="5" width="20" height="31" rx="1.500"/><path d="M16 12h8M16 17h8M20 36v0"/><path d="M15 30c1.500 1.500 8.500 1.500 10 0"/></svg>
+          <div><h3>Phone box</h3><p>Pour passer vos appels sans déranger.</p></div>
+        </li>
+        <li>
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M9 31C9 18 17 9 32 8c0 15-8 23-21 22zM9 31l11-11"/></svg>
+          <div><h3>Ambiance posée</h3><p>Un cadre calme, pour rester concentré.</p></div>
+        </li>
+      </ul>
+    </div>
+    <!-- À intégrer : affiches signalétiques « 1 consommation toutes les 2 h » (visuels à demander à Sam et Justine) -->
+    <aside class="rule" aria-labelledby="rule-t">
+      <h3 id="rule-t">Comment ça marche&nbsp;?</h3>
+      <div class="big"><b>2H</b><span>une consommation, puis la suivante</span></div>
+      <p>L’espace est gratuit : pas de forfait, pas d’abonnement, comme on en trouverait dans un coworking classique. Installez-vous.</p>
+      <p>En échange, on vous invite à reprendre une consommation toutes les 2&nbsp;heures. Un café, un thé, un sandwich… c’est vous qui voyez.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- MOSAÏQUE PHOTOS -->
+<section class="mos" aria-label="Photos du lieu">
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Un barista souriant secoue un shaker derrière le comptoir"><img src="assets/img/galerie-01-barista-shaker.webp" alt="Un barista souriant secoue un shaker derrière le comptoir" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Étagères blanches, vases et arche en pierre"><img src="assets/img/galerie-02-etageres-arche.webp" alt="Étagères blanches, vases et arche en pierre" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Un sandwich focaccia et un iced coffee sur le comptoir"><img src="assets/img/galerie-03-focaccia-iced-coffee.webp" alt="Un sandwich focaccia et un iced coffee sur le comptoir" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Un latte art est versé dans une tasse blanche"><img src="assets/img/galerie-04-latte-art.webp" alt="Un latte art est versé dans une tasse blanche" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Latte à l’ubé, muffin, croissant et iced coffee sur une table, vus du dessus"><img src="assets/img/galerie-05-ube-latte-table.webp" alt="Latte à l’ubé, muffin, croissant et iced coffee sur une table, vus du dessus" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Tables, chaises et banquette sous les tuyaux apparents"><img src="assets/img/galerie-06-salle-tuyaux.webp" alt="Tables, chaises et banquette sous les tuyaux apparents" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Un espresso et un cookie sur un plateau en bois"><img src="assets/img/galerie-07-espresso-cookie.webp" alt="Un espresso et un cookie sur un plateau en bois" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : La salle : banquette rouge, tables et lampes terracotta"><img src="assets/img/galerie-08-salle-banquette-rouge.webp" alt="La salle : banquette rouge, tables et lampes terracotta" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Une cliente lève un iced coffee Jöro Kaffé"><img src="assets/img/galerie-09-cliente-iced-coffee.webp" alt="Une cliente lève un iced coffee Jöro Kaffé" width="576" height="768" loading="lazy"></a></div>
+<div><a href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank" aria-label="Voir @joro_kaffe sur Instagram : Du lait versé dans une petite tasse en céramique rouge"><img src="assets/img/galerie-10-lait-tasse-rouge.webp" alt="Du lait versé dans une petite tasse en céramique rouge" width="576" height="768" loading="lazy"></a></div>
+</section>
+<div class="mos-cap"><span>La vie du coffee, en images</span><a class="btn btn-line-cream" href="https://www.instagram.com/joro_kaffe/" rel="noopener" target="_blank">Suivez-nous sur Instagram @joro_kaffe<span class="sr"> (nouvel onglet)</span></a></div>
+
+<!-- LA CARTE -->
+<section id="carte" class="carte">
+  <div class="wrap intro">
+    <p class="eyebrow">La carte</p>
+    <h2 class="h2">Cafés, lattes, sandwichs &amp; douceurs</h2>
+    <p class="l">Nos cafés de spécialité sont torréfiés par <a href="https://dose.paris/" rel="noopener" target="_blank">Dose Family</a>, torréfacteur parisien passionné par l’excellence et la traçabilité.</p>
+    <p class="lead-serif" style="margin:20px 0 28px">À boire sur place, à emporter, ou à savourer en travaillant.</p>
+    <!-- EMPLACEMENT FORMULES : à remplir quand le petit-déjeuner et le déjeuner seront lancés -->
+    <aside class="formules" aria-labelledby="formules-t">
+      <div class="cb" aria-hidden="true"></div>
+      <div>
+        <h3 id="formules-t">Formules</h3>
+        <p>Petit-déjeuner, déjeuner : nos formules arrivent bientôt. Elles apparaîtront ici, en tête de carte.</p>
+      </div>
+      <span class="soon">Bientôt</span>
+    </aside>
+
+    <section class="season" aria-labelledby="season-t">
+      <div class="season-head">
+        <p class="eyebrow">Automne 2026</p>
+        <h3 id="season-t">Les boissons de saison</h3>
+      </div>
+      <ul class="season-list">
+        <li><div class="sn"><span>Maple Salted Latte</span><b>7,00&nbsp;€</b></div></li>
+        <li><div class="sn"><span>Salted Caramel Latte</span><b>6,00&nbsp;€</b></div></li>
+        <li><div class="sn"><span>Pumpkin Spice Latte</span><b>6,50&nbsp;€</b></div><p>Mélange de farine de citrouille et d’épices en poudre</p></li>
+        <li><div class="sn"><span>Gimber</span><b>5,50&nbsp;€</b></div><p>Infusion au concentré de gingembre biologique, citron et miel français</p></li>
+        <li><div class="sn"><span>Chai Latte <em>ou</em> Dirty Chai</span><b>6,50&nbsp;€ / 8,50&nbsp;€</b></div><p>Le Dirty Chai ajoute 2 shots de café</p></li>
+        <li><div class="sn"><span>Chocolat viennois</span><b>6,00&nbsp;€</b></div><p>Chocolat chaud, version viennois (+0,50&nbsp;€)</p></li>
+      </ul>
+    </section>
+  </div>
+
+  <nav class="chips" aria-label="Sections de la carte">
+    <div class="in">
+      <a href="#cat-cafes">Cafés</a>
+      <a href="#cat-lactees">Lactées</a>
+      <a href="#cat-lattes">Lattes spéciaux</a>
+      <a href="#cat-douceurs">Douceurs</a>
+      <a href="#cat-boissons">Boissons</a>
+      <a href="#cat-sandwichs">Salé</a>
+    </div>
+  </nav>
+
+  <div class="wrap">
+    <div class="menu">
+<details class="cat" id="cat-cafes" open><summary><h3 class="mh">Cafés noirs</h3></summary>
+<ul class="mlist"><li class="mrow"><div>Décaféiné</div><b class="mprice">2,50&nbsp;€</b></li>
+<li class="mrow"><div>Ristretto</div><b class="mprice">2,50&nbsp;€</b></li>
+<li class="mrow"><div>Espresso</div><b class="mprice">2,50&nbsp;€</b></li>
+<li class="mrow"><div>Kaffé allongé</div><b class="mprice">3,50&nbsp;€</b></li>
+<li class="mrow"><div>Double expresso</div><b class="mprice">4,00&nbsp;€</b></li>
+<li class="mrow"><div>Americano</div><b class="mprice">4,60&nbsp;€</b></li></ul>
+</details>
+<details class="cat" id="cat-lactees" open><summary><h3 class="mh">Boissons lactées</h3></summary>
+<p class="mnote">Froid / Chaud · Lait au choix, sans supplément.</p><ul class="mlist"><li class="mrow"><div>Cortado / Noisette</div><b class="mprice">3,50&nbsp;€</b></li>
+<li class="mrow"><div>Babyccino</div><b class="mprice">3,50&nbsp;€</b></li>
+<li class="mrow"><div>Cappuccino</div><b class="mprice">5,00&nbsp;€</b></li>
+<li class="mrow"><div>Latte</div><b class="mprice">5,50&nbsp;€</b></li>
+<li class="mrow"><div>Salted Caramel Latte <span class="new">NEW</span></div><b class="mprice">6,00&nbsp;€</b></li>
+<li class="mrow"><div>Flat White</div><b class="mprice">5,70&nbsp;€</b></li>
+<li class="mrow"><div>Macchiato</div><b class="mprice">5,20&nbsp;€</b></li>
+<li class="mrow"><div>Chocolat chaud<span class="mdesc">Ou froid / viennois (+0,50&nbsp;€)</span></div><b class="mprice">5,50&nbsp;€</b></li>
+<li class="mrow"><div>Mocaccino</div><b class="mprice">6,00&nbsp;€</b></li>
+<li class="mrow"><div>Maple Salted Latte <span class="new">NEW</span></div><b class="mprice">7,00&nbsp;€</b></li></ul>
+</details>
+<details class="cat" id="cat-lattes" open><summary><h3 class="mh">Lattes spéciaux</h3></summary>
+<p class="mnote">Froid / Chaud · Lait au choix, sans supplément.</p><ul class="mlist"><li class="mrow"><div>Black Latte<span class="mdesc">Mélange de charbon végétal actif et thé Hojicha</span></div><b class="mprice">6,50&nbsp;€</b></li>
+<li class="mrow"><div>Golden Latte<span class="mdesc">Mélange de curcuma, gingembre et épices en poudre</span></div><b class="mprice">6,50&nbsp;€</b></li>
+<li class="mrow"><div>Chai Latte<span class="mdesc">Mélange de cannelle, gingembre, cardamome verte, noix de muscade, clou de girofle et thé noir en poudre</span></div><b class="mprice">6,50&nbsp;€</b></li>
+<li class="mrow"><div>Matcha Latte<span class="mdesc">Un matcha intense et sans amertume</span></div><b class="mprice">6,50&nbsp;€</b></li>
+<li class="mrow"><div>Ube Latte<span class="mdesc">À l’igname violet des Philippines et vanille Bourbon de Madagascar</span></div><b class="mprice">6,50&nbsp;€</b></li>
+<li class="mrow"><div>Blue Latte<span class="mdesc">Mélange de spiruline bleue, noix de coco et sumac sauvage</span></div><b class="mprice">6,50&nbsp;€</b></li>
+<li class="mrow"><div>Dirty Chai <span class="new">NEW</span><span class="mdesc">Mélange d’épices chai et 2 shots de café</span></div><b class="mprice">8,50&nbsp;€</b></li>
+<li class="mrow"><div>Pumpkin Spice Latte <span class="new">NEW</span><span class="mdesc">Mélange de farine de citrouille et d’épices en poudre</span></div><b class="mprice">6,50&nbsp;€</b></li></ul>
+</details>
+<details class="cat" id="cat-douceurs" open><summary><h3 class="mh">Viennoiseries &amp; douceurs</h3></summary>
+<ul class="mlist"><li class="mrow"><div>Croissant</div><b class="mprice">2,00&nbsp;€</b></li>
+<li class="mrow"><div>Pain au chocolat</div><b class="mprice">2,00&nbsp;€</b></li>
+<li class="mrow"><div>Cookie<span class="mdesc">Chocolat · Peanut butter · Matcha &amp; chocolat blanc</span></div><b class="mprice">3,50&nbsp;€</b></li>
+<li class="mrow"><div>Cakes / Muffins / Scones<span class="mdesc">Muffins aux fruits ou citron · Carrot cake · Cake pistache framboise · Cake choco coco</span></div><b class="mprice">4,50&nbsp;€</b></li>
+<li class="mrow"><div>Gâteau / Fondant / Moelleux<span class="mdesc">Gâteau noisette &amp; miel sans gluten · Gâteau au chocolat et huile d’olive · Brownie · Brookie</span></div><b class="mprice">5,00&nbsp;€</b></li>
+<li class="mrow"><div>Madeleine</div><b class="mprice">1,20&nbsp;€</b></li></ul><p class="mnote">Notre sélection change selon les semaines.</p>
+</details>
+<details class="cat" id="cat-boissons" open><summary><h3 class="mh">Boissons</h3></summary>
+<h4 class="msub">Boissons fraîches</h4><ul class="mlist"><li class="mrow"><div>Charitea<span class="msize">33 cl</span><span class="mdesc">Black – thé noir citron, sirop d’agave bio</span><span class="mdesc">Red – rooibos, fruit de la passion bio</span><span class="mdesc">Vert – thé vert, gingembre bio <span class="new">NEW</span></span></div><b class="mprice">5,50&nbsp;€</b></li>
+<li class="mrow"><div>Ginger Shot Mellos<span class="msize">60 ml</span> <span class="new">NEW</span></div><b class="mprice">4,50&nbsp;€</b></li>
+<li class="mrow"><div>Archipel Kombucha<span class="msize">33 cl</span><span class="mdesc">Feuilles de cassis <span class="new">NEW</span> ou Brut</span></div><b class="mprice">5,50&nbsp;€</b></li></ul><h4 class="msub">Jus Meneau</h4><p class="mnote">Jus de fruits bio · 25 cl</p><ul class="mlist"><li class="mrow"><div>Jus de pomme trouble bio</div><b class="mprice">6,00&nbsp;€</b></li>
+<li class="mrow"><div>Nectar de pêche bio</div><b class="mprice">6,00&nbsp;€</b></li>
+<li class="mrow"><div>Jus d’orange <span class="new">NEW</span></div><b class="mprice">6,00&nbsp;€</b></li>
+<li class="mrow"><div>Nectar de framboise &amp; fraise <span class="new">NEW</span></div><b class="mprice">6,00&nbsp;€</b></li></ul><h4 class="msub">Eaux Abatilles</h4><ul class="mlist"><li class="mrow"><div>Plate<span class="msize">33 cl</span></div><b class="mprice">3,00&nbsp;€</b></li>
+<li class="mrow"><div>Gazeuse<span class="msize">33 cl</span></div><b class="mprice">4,00&nbsp;€</b></li></ul><h4 class="msub">Thés &amp; infusions</h4><ul class="mlist"><li class="mrow"><div>Gimber<span class="msize">25 cl</span> <span class="new">NEW</span><span class="mdesc">Infusion au concentré de gingembre biologique, citron et miel français</span></div><b class="mprice">5,50&nbsp;€</b></li>
+<li class="mrow"><div>Thés Kodama<span class="msize">33 cl</span><span class="mdesc">Demandez notre sélection de thé auprès de votre barista</span></div><b class="mprice">5,40&nbsp;€</b></li></ul>
+</details>
+    </div>
+    <div class="extras">
+      <div class="lait">
+        <p class="k">Froid / Chaud</p>
+        <h3>Votre lait, au choix</h3>
+        <p class="s">Sans supplément</p>
+        <ul><li>Lait entier</li><li>Lait d’avoine</li><li>Lait d’amande</li><li>Lait de coco</li></ul>
+        <p class="n">Pour toutes nos boissons lactées et nos lattes spéciaux</p>
+      </div>
+      <div class="perso">
+        <h3>Personnalisez votre boisson</h3>
+        <ul class="mlist">
+          <li class="mrow"><div>Sirops Monin<span class="mdesc">Vanille, Caramel ou Caramel salé, Noisette, Spéculoos, Agave, Cannelle, Pistache</span></div><b class="mprice">+0,50&nbsp;€</b></li>
+          <li class="mrow"><div>Chantilly</div><b class="mprice">+0,50&nbsp;€</b></li>
+          <li class="mrow"><div>Oat Cold Foam<span class="mdesc">Boisson froide</span></div><b class="mprice">+1,00&nbsp;€</b></li>
+          <li class="mrow"><div>Shot de café</div><b class="mprice">+2,00&nbsp;€</b></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="wrap food">
+<details class="cat" id="cat-sandwichs" open><summary><h3 class="mh">Salé</h3></summary>
+<ul class="mlist"><li class="mrow"><div>EggMuffin<span class="mdesc">Pain muffin, cheddar, œuf, bacon · Option : sans bacon</span></div><b class="mprice">6,00&nbsp;€</b></li></ul><div class="sand-grid"><article class="sand"><img src="assets/img/sandwich-bacon-avocat.webp" alt="Illustration du sandwich Bacon Avocat" width="760" height="660" loading="lazy"><div class="bd"><div class="top2"><h4>Bacon Avocat <span class="new">NEW</span></h4><b class="price">7,50&nbsp;€</b></div><p>Pain au levain, bacon, avocat, mayonnaise, yaourt grec, ciboulette, citron, salade iceberg.</p><p class="all">Allergènes : gluten, œufs, moutarde, lait</p></div></article><article class="sand"><img src="assets/img/sandwich-club-proteine.webp" alt="Illustration du sandwich Club Protéine" width="760" height="724" loading="lazy"><div class="bd"><div class="top2"><h4>Club Protéine <span class="new">NEW</span></h4><b class="price">7,50&nbsp;€</b></div><p>Focaccia, poulet, œuf dur, mayonnaise, oignons frits, pickles d’oignons rouges, salade iceberg.</p><p class="all">Allergènes : gluten, œufs, moutarde, lait</p></div></article><article class="sand"><img src="assets/img/sandwich-poivron-feta.webp" alt="Illustration du sandwich Poivron-Feta" width="760" height="584" loading="lazy"><div class="bd"><div class="top2"><h4>Le Poivron-Feta <span class="new">NEW</span></h4><b class="price">6,20&nbsp;€</b></div><p>Baguette tradition, féta, poivrons en lanières, sauce yaourt-citron, pickles d’oignons rouges, salade iceberg.</p><p class="all">Allergènes : gluten, lait</p><span class="tag">Végétarien</span></div></article></div>
+</details><p class="ttc">Prix TTC. Liste des allergènes disponible sur demande.</p>
+  </div>
+</section>
+
+<!-- AVIS GOOGLE -->
+<section id="avis" class="sec rev">
+  <div class="wrap">
+    <p class="eyebrow">Ils en parlent</p>
+    <div class="rev-head">
+      <div class="score" role="img" aria-label="Note de 4,9 sur 5"><span class="n">4,9</span><span class="d">/5</span></div>
+      <div>
+        <div class="stars" aria-hidden="true"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></div>
+        <p>192 avis Google</p>
+      </div>
+      <div class="btns">
+        <a class="btn btn-fill" href="https://g.page/r/CeUkZisCM7wFEBM/review" rel="noopener" target="_blank">Laisser un avis<span class="sr"> (nouvel onglet)</span></a>
+      </div>
+    </div>
+    <!-- Avis 1 et 2 : captures de la fiche Google (oct. 2026), Doudou : fautes corrigées (« calm », « correcte »). Arina : traduction Google de l’avis anglais. 3 extraits d’avis réels à copier depuis la fiche Google (courts, avec le prénom affiché). Les avis évoquent déjà les prises et les tables adaptées. -->
+    <div class="rev-grid">
+      <a class="rev-card" href="https://www.google.com/maps/search/?api=1&amp;query=J%C3%B6ro+Kaff%C3%A9+15+bis+rue+Jean-Baptiste+Pigalle+75009+Paris" rel="noopener" target="_blank"><span class="rstars" role="img" aria-label="5 étoiles sur 5"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span><blockquote>« Très belle expérience, j’y retournerai pour coworker ! Le café est bon, le service très agréable, l’ambiance calme et reposante. »</blockquote><span class="rcap">Leila · Avis Google</span></a>
+      <a class="rev-card" href="https://www.google.com/maps/search/?api=1&amp;query=J%C3%B6ro+Kaff%C3%A9+15+bis+rue+Jean-Baptiste+Pigalle+75009+Paris" rel="noopener" target="_blank"><span class="rstars" role="img" aria-label="5 étoiles sur 5"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span><blockquote>« Très calme pour le work et prix très corrects. »</blockquote><span class="rcap">Doudou · Avis Google</span></a>
+      <a class="rev-card" href="https://www.google.com/maps/search/?api=1&amp;query=J%C3%B6ro+Kaff%C3%A9+15+bis+rue+Jean-Baptiste+Pigalle+75009+Paris" rel="noopener" target="_blank"><span class="rstars" role="img" aria-label="5 étoiles sur 5"><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg><svg><use href="#star"/></svg></span><blockquote>« Un endroit idéal pour travailler autour d’un café. Le café est délicieux et le barista réalise de superbes petits dessins sur les lattes ! »</blockquote><span class="rcap">Arina · Avis Google (traduit de l’anglais)</span></a>
+    </div>
+    <p class="src">Note moyenne et nombre d’avis relevés sur notre fiche Google.</p>
+    <!-- Presse : Vogue (titre vérifié par Bérénice : « Les nouveaux coffee shops qui vont marquer la rentrée 2025 », Jade Simon, 2 sept. 2025) ; Time Out (page consultée) ; Le Bonbon (post Instagram fourni, non consultable ; Jöro Kaffé y est cité d’après Julia). -->
+    <div class="press">
+      <p class="eyebrow">Ils parlent de nous</p>
+      <ul class="press-list">
+        <li><a href="https://www.vogue.fr/article/les-nouveaux-coffee-shops-rentree-2025" rel="noopener" target="_blank">
+          <span class="psrc"><img class="plogo" src="assets/img/presse-vogue.png" alt="Vogue France" style="height:26px;width:auto" height="26"></span>
+          <span class="ptt">Les nouveaux coffee shops qui vont marquer la rentrée 2025</span>
+          <span class="plink">Lire l’article<span class="sr"> (nouvel onglet)</span></span></a></li>
+        <li><a href="https://www.timeout.fr/paris/restaurants/a-paris-la-coffee-shopisation-monte-en-graine" rel="noopener" target="_blank">
+          <span class="psrc"><img class="plogo" src="assets/img/presse-time-out.png" alt="Time Out Paris" style="height:54px;width:auto" height="54"></span>
+          <span class="ptt">À Paris, la «&nbsp;coffee-shopisation&nbsp;» monte en graine</span>
+          <span class="plink">Lire l’article<span class="sr"> (nouvel onglet)</span></span></a></li>
+        <li><a href="https://www.instagram.com/p/DegYNMqDoyr/" rel="noopener" target="_blank">
+          <span class="psrc"><img class="plogo" src="assets/img/presse-le-bonbon.png" alt="Le Bonbon" style="height:34px;width:auto" height="34"></span>
+          <span class="ptt">Les meilleurs spots pour travailler</span>
+          <span class="plink">Voir le post Instagram<span class="sr"> (nouvel onglet)</span></span></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- JÖRO HOUSE -->
+<section id="house" class="sec house">
+  <div class="wrap">
+    <p class="eyebrow">Aussi à la Jöro House</p>
+    <h2 class="h2">Un lieu, plusieurs façons de l’habiter</h2>
+    <p class="lead-serif">Jöro Kaffé est le coffee shop de la Jöro House. La maison accueille aussi vos projets.</p>
+    <!-- Cartes cliquables vers les pages joro-space.fr. Photos au survol : fournies par Julia (captures des pages joro-space.fr), intégrées dans la page. -->
+    <div class="house-grid">
+      <a class="hcard" href="https://joro-space.fr/joro-house-salle-de-podcast/" rel="noopener" target="_blank">
+        <img class="hph" src="assets/img/house-studio-podcast.webp" alt="" width="900" loading="lazy"><span class="hov"></span>
+        <div class="hin">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="14" y="4" width="12" height="20" rx="6"/><path d="M8 19a12 12 0 0 0 24 0M20 31v5M13 36h14"/></svg>
+          <h3>Studio podcast</h3>
+          <p>Une salle de 13&nbsp;m² pour 2 à 4 personnes, avec micros, écran et Wi‑Fi.</p>
+          <span class="hmore">Découvrir<span class="sr"> la salle de podcast (nouvel onglet)</span></span>
+        </div>
+      </a>
+      <a class="hcard" href="https://joro-space.fr/joro-house-espace-reunion/" rel="noopener" target="_blank">
+        <img class="hph" src="assets/img/house-salle-reunion.webp" alt="" width="900" loading="lazy"><span class="hov"></span>
+        <div class="hin">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><rect x="5" y="9" width="30" height="19" rx="1.500"/><path d="M14 35h12M20 28v7M11 16h10M11 21h16"/></svg>
+          <h3>Salle de réunion</h3>
+          <p>Une salle équipée de visioconférence pour vos réunions et rendez-vous d’équipe.</p>
+          <span class="hmore">Découvrir<span class="sr"> la salle de réunion (nouvel onglet)</span></span>
+        </div>
+      </a>
+      <a class="hcard" href="https://joro-space.fr/la-joro-house-pigalle/" rel="noopener" target="_blank">
+        <img class="hph" src="assets/img/house-evenementiel.webp" alt="" width="900" loading="lazy"><span class="hov"></span>
+        <div class="hin">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 34h32M8 34V16l12-8 12 8v18M15 34V22h10v12"/></svg>
+          <h3>Espace événementiel</h3>
+          <p>140&nbsp;m² modulables, jusqu’à 50 personnes assises, pour vos séminaires, lancements et cocktails.</p>
+          <span class="hmore">Découvrir<span class="sr"> l’espace événementiel (nouvel onglet)</span></span>
+        </div>
+      </a>
+    </div>
+    <!-- Jöro Meeting : page « Concept » du pôle réunions & événements de joro-space.fr (autres pages : /offre-et-services-joro-meeting/, /nos-lieux-joro-meeting/) ; chiffres des cartes issus des pages joro-space.fr -->
+    <a class="btn btn-fill" href="https://joro-space.fr/lieux-reunions-evenements/" rel="noopener" target="_blank">Découvrir Jöro Meeting</a>
+  </div>
+</section>
+
+<div class="checker" aria-hidden="true"></div>
+
+<!-- INFOS PRATIQUES -->
+<section id="infos" class="sec infos">
+  <div class="wrap infos-grid">
+    <div>
+      <img class="deco" src="assets/img/deco-pictogramme.webp" alt="" width="60" height="129" loading="lazy">
+      <p class="eyebrow">Infos pratiques</p>
+      <h2 class="h2">Nous trouver</h2>
+      <p class="now"><span class="status js-status" hidden><i class="dot"></i><span class="st-txt"></span></span></p>
+      <div class="info-blocks">
+        <div class="ib-col">
+        <div>
+          <h3>Adresse</h3>
+          <p>15 bis rue Jean-Baptiste Pigalle<br>75009 Paris</p>
+        </div>
+        <div>
+          <h3>Accès</h3>
+          <p>Métro Trinité – d’Estienne d’Orves</p>
+          <p class="sm" style="margin-top:6px">Accessible aux personnes à mobilité réduite.</p>
+        </div>
+        <div>
+          <h3>Réservation</h3>
+          <p>Sans réservation</p>
+        </div>
+        </div>
+        <div class="ib-col">
+        <div>
+          <h3>Horaires</h3>
+          <ul class="hours">
+            <li data-d="1,2,3,4,5"><span>Lundi au vendredi</span><b>8h00 – 18h00</b></li>
+            <li data-d="6"><span>Samedi</span><b>9h30 – 18h00</b></li>
+            <li data-d="0"><span>Dimanche</span><b>Fermé</b></li>
+          </ul>
+          <p class="sm">Fermé le mercredi 11 novembre (jour férié).</p>
+        </div>
+        </div>
+      </div>
+      <div class="btns">
+        <a class="btn btn-fill" href="https://www.google.com/maps/search/?api=1&amp;query=15+bis+rue+Jean-Baptiste+Pigalle+75009+Paris" rel="noopener">Itinéraire</a>
+        <a class="btn" href="tel:+33764013848">Appeler</a>
+        <button class="btn" type="button" data-dialog="contact">Nous écrire</button>
+        <a class="btn" href="https://www.instagram.com/joro_kaffe/" rel="noopener">Instagram</a>
+      </div>
+    </div>
+    <div class="mapbox" id="mapbox">
+      <div class="map-ph">
+        <div class="map-band" aria-hidden="true"></div>
+        <p class="map-ad"><b>Jöro Kaffé</b><br>15 bis rue Jean-Baptiste Pigalle<br>75009 Paris</p>
+        <div class="btns">
+          <button class="btn btn-fill" type="button" id="map-load">Afficher la carte</button>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=15+bis+rue+Jean-Baptiste+Pigalle+75009+Paris" rel="noopener" target="_blank">Ouvrir dans Google Maps<span class="sr"> (nouvel onglet)</span></a>
+        </div>
+        <p class="sm map-note">La carte Google n’est chargée qu’après votre clic.</p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- PIED DE PAGE -->
+<footer>
+  <div class="cols">
+    <div>
+      <img class="logo-f" src="assets/img/logo-joro-kaffe-footer.png" alt="Jöro Kaffé" width="120" height="68" loading="lazy">
+      <p>Coffee shop de spécialité, Paris 9e.</p>
+    </div>
+    <div>
+      <h2>Adresse</h2>
+      <p>15 bis rue Jean-Baptiste Pigalle<br>75009 Paris</p>
+    </div>
+    <div>
+      <h2>Horaires</h2>
+      <p>Lundi au vendredi : 8h00 – 18h00<br>Samedi : 9h30 – 18h00<br>Dimanche : fermé</p>
+    </div>
+    <div>
+      <h2>Nous suivre</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/joro_kaffe/" rel="noopener">Instagram</a></li>
+        <li><a href="#house">Aussi à la Jöro House</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="legal">
+    <span>© 2026 Jöro Kaffé</span>
+    <!-- Textes dans les fenêtres ci-dessous : brouillon à valider avec le juridique et Maelle -->
+    <nav aria-label="Informations légales">
+      <a href="#mentions-legales" data-dialog="mentions-legales">Mentions légales</a>
+      <a href="#politique-de-confidentialite" data-dialog="politique-de-confidentialite">Politique de confidentialité</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- Barre d’action mobile -->
+<div class="mbar" role="region" aria-label="Actions rapides">
+  <span class="status js-status" hidden><i class="dot"></i><span class="st-txt"></span></span>
+  <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=15+bis+rue+Jean-Baptiste+Pigalle+75009+Paris" rel="noopener">Itinéraire</a>
+</div>
+
+
+
+<dialog id="contact" class="legal-dlg contact-dlg" aria-labelledby="ct-t">
+  <div class="dlg-head"><h2 id="ct-t">Nous écrire</h2><button type="button" class="dlg-x" data-close aria-label="Fermer">×</button></div>
+  <div class="dlg-body">
+    <p>Pour une question, une réservation d’espace ou une demande presse, écrivez-nous à :</p>
+    <p class="ct-mail"><b>hello@joro-kaffe.com</b></p>
+    <div class="btns">
+      <a class="btn btn-fill" href="mailto:hello@joro-kaffe.com">Ouvrir ma messagerie</a>
+      <button class="btn" type="button" id="copy-mail">Copier l’adresse</button>
+    </div>
+    <p class="sm" id="copy-ok" role="status" style="min-height:1.4em;margin-top:12px"></p>
+  </div>
+</dialog>
+
+<!-- ===== Textes légaux (brouillon à valider par le juridique + Maelle) ===== -->
+<dialog id="mentions-legales" class="legal-dlg" aria-labelledby="ml-t">
+  <div class="dlg-head"><h2 id="ml-t">Mentions légales</h2><button type="button" class="dlg-x" data-close aria-label="Fermer">×</button></div>
+  <div class="dlg-body">
+    <h3>Éditeur du site</h3>
+    <p>Jöro Kaffé, société par actions simplifiée au capital de 5&nbsp;000&nbsp;€<br>
+    RCS Paris 943&nbsp;462&nbsp;291 (SIREN 943&nbsp;462&nbsp;291)<br>
+    Adresse de l’établissement : 15 bis rue Jean-Baptiste Pigalle, 75009 Paris<br>
+    Siège social : 15 bis rue Jean-Baptiste Pigalle, 75009 Paris<br>N° de TVA intracommunautaire : FR23&nbsp;943&nbsp;462&nbsp;291</p>
+    <p>Président : Romain Ruby.</p>
+    <h3>Directeur de la publication</h3>
+    <p>Romain Ruby, Président.</p>
+    <h3>Contact</h3>
+    <p>E-mail : <a href="mailto:hello@joro-kaffe.com">hello@joro-kaffe.com</a><br>Téléphone : <a href="tel:+33764013848">07 64 01 38 48</a></p>
+    <h3>Hébergement</h3>
+    <p><span class="tbc">Nom, adresse et contact de l’hébergeur : à compléter dès que l’hébergement de joro-kaffe.com est choisi</span></p>
+    <h3>Propriété intellectuelle</h3>
+    <p>L’ensemble des contenus du site (textes, photographies, illustrations, logos, identité visuelle) est protégé par le droit de la propriété intellectuelle. Toute reproduction, représentation ou utilisation, totale ou partielle, sans autorisation écrite préalable de Jöro Kaffé est interdite. Photographies : © Jöro Kaffé et Jöro House.</p>
+    <h3>Liens et contenus externes</h3>
+    <p>Le site renvoie vers des sites tiers (Google Maps, Instagram, médias, site du torréfacteur Dose Family, site de la Jöro House). Jöro Kaffé n’exerce aucun contrôle sur leurs contenus et décline toute responsabilité à leur égard. Les avis et extraits de presse affichés restent la propriété de leurs auteurs.</p>
+    <h3>Responsabilité</h3>
+    <p>Jöro Kaffé s’efforce de fournir des informations exactes et à jour (carte, prix, horaires), qui peuvent toutefois évoluer sans préavis. Les informations affichées sur place prévalent.</p>
+    <h3>Droit applicable</h3>
+    <p>Les présentes mentions sont soumises au droit français. En cas de litige, les tribunaux français sont compétents.</p>
+  </div>
+</dialog>
+
+<dialog id="politique-de-confidentialite" class="legal-dlg" aria-labelledby="pc-t">
+  <div class="dlg-head"><h2 id="pc-t">Politique de confidentialité</h2><button type="button" class="dlg-x" data-close aria-label="Fermer">×</button></div>
+  <div class="dlg-body">
+    <h3>Responsable du traitement</h3>
+    <p>Jöro Kaffé, SAS, 15 bis rue Jean-Baptiste Pigalle, 75009 Paris. Contact : <a href="mailto:hello@joro-kaffe.com">hello@joro-kaffe.com</a>.</p>
+    <h3>Données collectées</h3>
+    <p>Ce site ne comporte ni compte utilisateur, ni formulaire, ni outil de mesure d’audience, ni publicité. Nous ne collectons des données personnelles que si vous nous contactez par e-mail ou par téléphone : nom, coordonnées et contenu de votre message.</p>
+    <h3>Finalités et base légale</h3>
+    <p>Ces données servent uniquement à répondre à votre demande (intérêt légitime de Jöro Kaffé à répondre aux sollicitations qui lui sont adressées). Elles ne sont ni vendues ni utilisées à des fins de prospection.</p>
+    <h3>Durée de conservation</h3>
+    <p>Vos données sont conservées le temps nécessaire au traitement de votre demande, puis au maximum 12 mois après notre dernier échange.</p>
+    <h3>Destinataires</h3>
+    <p>Les données sont destinées aux équipes de Jöro Kaffé et de la Jöro House en charge de votre demande, ainsi qu’à nos prestataires techniques (messagerie, hébergement).</p>
+    <h3>Services tiers</h3>
+    <p>La page propose une carte Google Maps, chargée uniquement si vous cliquez sur «&nbsp;Afficher la carte&nbsp;». Son affichage peut alors entraîner un échange de données (adresse IP, cookies) entre votre navigateur et Google, selon la <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">politique de confidentialité de Google</a>. Les liens vers Instagram et les médias vous mènent vers des sites soumis à leurs propres règles.</p>
+    <h3>Cookies</h3>
+    <p>Ce site n’utilise pas de cookies de mesure d’audience ni de publicité.</p>
+    <h3>Vos droits</h3>
+    <p>Vous disposez d’un droit d’accès, de rectification, d’effacement, d’opposition, de limitation et de portabilité de vos données. Pour l’exercer, écrivez à <a href="mailto:hello@joro-kaffe.com">hello@joro-kaffe.com</a>. Vous pouvez aussi introduire une réclamation auprès de la CNIL (<a href="https://www.cnil.fr" rel="noopener" target="_blank">cnil.fr</a>).</p>
+    <p class="sm">Dernière mise à jour : 27 octobre 2026.</p>
+  </div>
+</dialog>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+
+</body></html>
