@@ -32,7 +32,7 @@ Puis ouvrir http://localhost:4173.
 - [ ] **Hébergeur** : à compléter dans les mentions légales (repère jaune `.tbc` dans `index.html`).
 - [ ] **Textes légaux** : mentions légales et politique de confidentialité sont un brouillon à faire valider (juridique + Maelle).
 - [ ] **Nom de domaine** : `https://joro-kaffe.com/` est une hypothèse de travail. À remplacer dans `canonical`, `og:url`, `og:image`, `twitter:image` et le JSON-LD (`url`, `image`, `hasMenu`).
-- [ ] **Image de partage** : `og-jorokaffe.jpg` (1200 × 630) est référencée mais n'existe pas encore dans le projet.
+- [x] **Image de partage** : `og-jorokaffe.jpg` (1200 × 630, logo sur fond crème) est à la racine. Elle ne s'affichera dans les aperçus (Slack, WhatsApp…) que lorsque l'adresse `https://joro-kaffe.com/og-jorokaffe.jpg` répond, donc une fois le domaine confirmé et relié au site.
 - [ ] **Favicon** : aucune balise `icon` dans la maquette.
 - [ ] **Police Market Deco** : le fichier fourni n'a pas les lettres accentuées. Un script les recompose pour l'instant (fin de `main.js`). À retirer dès qu'on a la version complète.
 - [ ] **Affiches « 1 consommation toutes les 2 h »** à intégrer (visuels à demander à Sam et Justine).
