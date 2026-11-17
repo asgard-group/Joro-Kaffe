@@ -1,0 +1,6 @@
+# Redirige l'adresse Netlify (joro-kaffe.netlify.app) vers le domaine principal.
+[[redirects]]
+  from = "https://joro-kaffe.netlify.app/*"
+  to = "https://joro-kaffe.com/:splat"
+  status = 301
+  force = true
