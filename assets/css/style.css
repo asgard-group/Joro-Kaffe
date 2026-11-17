@@ -33,7 +33,7 @@ a{color:var(--brown)} a:hover{color:var(--brown-d)}
 .eyebrow{margin:0 0 16px;font-size:14px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--brown)}
 .h2{margin:0 0 24px;font-family:var(--f-display);font-weight:700;font-size:clamp(32px,4vw,52px);line-height:1.08;text-transform:uppercase;color:var(--brown)}
 .lead-serif{margin:0 0 28px;font-family:var(--f-serif);font-style:italic;font-weight:400;font-size:clamp(22px,2.4vw,30px);line-height:1.3;color:var(--brown-d)}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:14px 28px;border-radius:2px;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid var(--brown);color:var(--brown);background:transparent;transition:background .2s,color .2s}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:14px 28px;border-radius:2px;font-family:inherit;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid var(--brown);color:var(--brown);background:transparent;transition:background .2s,color .2s}
 .btn:hover{background:var(--brown);color:var(--cream)}
 .btn-fill{background:var(--brown);color:var(--cream)} .btn-fill:hover{background:var(--brown-d);border-color:var(--brown-d)}
 .btn-cream{background:var(--cream);color:var(--brown);border-color:var(--cream)} .btn-cream:hover{background:#fff;color:var(--brown-d)}
