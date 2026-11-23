@@ -102,6 +102,7 @@ html.js:not(.go) .ckw,html.js:not(.go) .ckw *,html.js:not(.go) .hero .in,html.js
 .lieu .ph{flex:1 1 380px;min-width:0}
 .lieu .ph img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
 .lieu .tx{flex:1 1 440px;min-width:0}
+.lieu .eyebrow{color:#c62828}
 .lieu p{margin:0 0 20px}
 
 /* ===== Travailler sur place ===== */
