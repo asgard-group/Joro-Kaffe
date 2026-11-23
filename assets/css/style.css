@@ -66,6 +66,7 @@ a{color:var(--brown)} a:hover{color:var(--brown-d)}
 .nv .nv-cta:hover{background:var(--brown);color:var(--cream);text-decoration:none}
 .hd .status{background:#fff}
 .xs-only{display:none}
+.nv-toggle{display:none}
 
 /* ===== Hero ===== */
 .hero{position:relative;height:clamp(560px,86vh,840px);overflow:hidden;background:var(--dark)}
@@ -337,6 +338,23 @@ footer .legal nav{display:flex;flex-wrap:wrap;gap:8px 24px}
   .nv a{font-size:11px;letter-spacing:.08em;padding:0 8px;white-space:nowrap}
   .nv .nv-cta{padding:0 12px}
   .nv a.opt{display:none}
+  /* Menu burger (avec JavaScript) : sans JS, la barre de liens défilante ci-dessus reste en place */
+  html.js .hd{position:relative}
+  html.js .nv-toggle{display:inline-flex;align-items:center;justify-content:center;flex:none;width:44px;height:44px;margin-right:-10px;padding:0;border:0;background:transparent;color:var(--brown);cursor:pointer}
+  .nv-toggle .bars,.nv-toggle .bars::before,.nv-toggle .bars::after{display:block;width:24px;height:2px;border-radius:1px;background:currentColor;transition:transform .2s ease,background-color .2s ease}
+  .nv-toggle .bars{position:relative}
+  .nv-toggle .bars::before,.nv-toggle .bars::after{content:"";position:absolute;left:0}
+  .nv-toggle .bars::before{top:-7px}
+  .nv-toggle .bars::after{top:7px}
+  .hd.nav-open .nv-toggle .bars{background:transparent}
+  .hd.nav-open .nv-toggle .bars::before{transform:translateY(7px) rotate(45deg)}
+  .hd.nav-open .nv-toggle .bars::after{transform:translateY(-7px) rotate(-45deg)}
+  html.js .nv{display:none;position:absolute;top:100%;left:0;right:0;z-index:70;flex-direction:column;align-items:stretch;gap:0;padding:4px 20px 24px;overflow:visible;background:var(--cream);border-bottom:1px solid rgba(130,86,69,.3);box-shadow:0 14px 24px rgba(40,24,18,.14)}
+  html.js .hd.nav-open .nv{display:flex}
+  html.js .nv a,html.js .nv a.opt{display:flex;min-height:56px;padding:0;font-size:14px;letter-spacing:.14em;white-space:normal;border-bottom:1px solid rgba(130,86,69,.2)}
+  html.js .nv .xs-hide{display:inline}
+  html.js .nv .xs-only{display:none}
+  html.js .nv a.nv-cta{justify-content:center;margin-top:20px;padding:0 18px;border:1px solid var(--brown)}
   .xs-hide{display:none}
   .xs-only{display:inline}
   .kick .status{display:none}
@@ -366,6 +384,7 @@ footer .legal nav{display:flex;flex-wrap:wrap;gap:8px 24px}
 @media (prefers-reduced-motion:reduce){
   .ckw{display:none}
   .hero>img,.hero .in,.mbar{animation:none}
+  .nv-toggle .bars,.nv-toggle .bars::before,.nv-toggle .bars::after{transition:none}
   html{scroll-behavior:auto}
   .mos img{transition:none}
 }

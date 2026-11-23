@@ -148,6 +148,24 @@
     document.querySelectorAll('.h2,.hero h1,.hcard h3,.sand h4,.dlg-head h2,.map-ad b').forEach(walk);
   })();
 
+  /* ---------- Menu burger (mobile) ---------- */
+  var hd=document.querySelector('.hd'), burger=document.querySelector('.nv-toggle');
+  if(hd&&burger){
+    var mobileNav=window.matchMedia('(max-width:640px)');
+    function setNav(open,refocus){
+      hd.classList.toggle('nav-open',open);
+      burger.setAttribute('aria-expanded',open?'true':'false');
+      burger.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu');
+      if(!open&&refocus) burger.focus();
+    }
+    burger.addEventListener('click',function(){ setNav(!hd.classList.contains('nav-open')); });
+    hd.querySelectorAll('.nv a').forEach(function(a){ a.addEventListener('click',function(){ setNav(false); }); });
+    document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&hd.classList.contains('nav-open')) setNav(false,true); });
+    document.addEventListener('click',function(e){ if(hd.classList.contains('nav-open')&&!hd.contains(e.target)) setNav(false); });
+    function resetNav(){ if(!mobileNav.matches) setNav(false); }
+    (mobileNav.addEventListener?mobileNav.addEventListener('change',resetNav):mobileNav.addListener(resetNav));
+  }
+
   /* ---------- Intro damier : nettoyage une fois terminée ---------- */
   var ck=document.querySelector('.ckw');
   function go(){document.documentElement.classList.add('go'); if(ck) setTimeout(function(){ck.parentNode&&ck.parentNode.removeChild(ck);},4000);}
