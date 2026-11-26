@@ -145,7 +145,7 @@
         re.lastIndex=0; c=nx;
       }
     }
-    document.querySelectorAll('.h2,.hero h1,.hcard h3,.sand h4,.dlg-head h2,.map-ad b').forEach(walk);
+    document.querySelectorAll('.h2,.hero h1,.hcard h3,.sand h4,.dlg-head h2,.f-top h4,.map-ad b').forEach(walk);
   })();
 
   /* ---------- Menu burger (mobile) ---------- */
