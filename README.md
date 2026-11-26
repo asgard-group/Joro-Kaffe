@@ -36,5 +36,5 @@ Puis ouvrir http://localhost:4173.
 - [x] **Favicon** : le « O » en forme de tasse du logo (crème sur fond marron), en `favicon.ico`, `favicon-32x32.png` et `apple-touch-icon.png` à la racine.
 - [ ] **Police Market Deco** : le fichier fourni n'a pas les lettres accentuées. Un script les recompose pour l'instant (fin de `main.js`). À retirer dès qu'on a la version complète.
 - [ ] **Affiches « 1 consommation toutes les 2 h »** à intégrer (visuels à demander à Sam et Justine).
-- [ ] **Formules** petit-déjeuner et déjeuner : emplacement prévu dans la carte, « Bientôt ».
+- [x] **Formules** petit-déjeuner et déjeuner : en tête de carte (bloc `.formules`), d'après le mail de Bérénice du 20/11/2026. La formule « Fin de service » n'est pas publiée pour l'instant.
 - [ ] Retirer les repères « à confirmer » (`.tbc`, `[data-tbc]`) une fois les points ci-dessus réglés.
